@@ -1,0 +1,253 @@
+html {
+   /*This makes the section transmission smooth". */
+scroll-behavior: smooth;
+} 
+ /*The following CSS script dictates the padding and text style found on the "body" of the "html". */
+body{
+margin: 0;
+padding: 0;
+font-family: tisa;
+    /*The following CSS script dictates the characteristics of the menu found at the top of the page i.e "Home", "Tips And Tricks". */
+}
+nav{ 
+display: flex;
+width: 100%;
+max-height: 10;
+background: #131A22;
+overflow: hidden;
+position: fixed;
+top:0;
+opacity: 0.9;
+font-family: 'Cormorant Garamond', serif;
+
+}
+
+
+.BirNook3{
+height: 100%;
+width: 10%;
+position: absolute;
+display: flex;
+top: 1%;
+right: 1%;
+
+}
+ul{
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+li{
+float: left;
+}
+
+ 
+a{
+font-size:3vw;
+padding: 25px 25px;
+width: 1vw;
+position: relative;
+text-decoration: none;
+color: #fff;
+text-transform:uppercase;
+}
+
+/* This dictates the size and characteristics of the sections found on the website */
+
+#section1{
+height:100vh;
+width: 100%;
+display: flex;
+background: #131A22;
+
+
+}
+
+#section2{
+height:100vh;
+width: 100%;
+display: flex;
+background:#FEBD69 ;
+
+}
+
+#section3{
+height:100vh;
+width: 100%;
+display: flex;
+background:  #232F3E;
+
+
+}
+
+#section4{
+height:100vh;
+width: 100%;
+display: flex;
+background: #37475A;
+
+
+}
+
+#section5 {
+height:100vh;
+width: 100%;
+display: flex;
+background: #131A22;
+}
+
+
+
+
+h1 {
+margin: 100px;
+text-align: center;
+padding: 0;
+}
+/* This is the "Tips And Tricks" drop down menu. This dictates the size of the drop down menu and other characteristics such as animation. */
+.dropdown {
+  top: -2%; 
+    padding-top: 100px;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -300%);
+    position: relative;
+}
+
+    .dropdown button {
+      top: -2%; 
+        padding: 5% 30%;
+        background-color: grey;
+        color: white;
+        transition: .3s;
+        cursor: pointer;
+    }
+
+    .dropdown:hover button {
+      
+        background-color: grey;
+    }
+
+    .dropdown div {
+      
+        background-color: #fff;
+        z-index: 1;
+        text-align: center;
+        visibility: hidden;
+        position: absolute;
+        right: 5%;
+        width: 90%;
+        opacity: 0;
+        transition: .50s;
+    }
+
+    .dropdown:hover div {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .dropdown div a {
+        display: block;
+        text-decoration: none;
+        padding: 5% 41.2%;
+        color: #000;
+        transition: .50s;
+        
+    }
+
+        .dropdown div a:hover {
+            background-color: grey;
+            color: #fff;
+        }
+
+
+       
+
+
+
+
+        
+        /* This is the slideshow container. This dictates the size of the slideshow */
+         * {box-sizing:border-box}
+         .slideshow-container {
+          max-width: 100%;
+          mask-position:center;
+
+          margin: auto;
+        }
+        
+
+
+
+        /* This makes the images invisible by default, this ensures that only a single image is diplayed on the slideshow */
+        .Containers {
+          display: none;
+        }
+        
+        /* This controls both the back a forward buttons on the slideshow */
+        .Back, .forward {
+          cursor: pointer;
+          position: absolute;
+          top: 43.5%;
+          width: auto;
+          margin-top: 4.8%;
+        display: inline-block;
+          padding: 5%;
+          color:#FEBD69;
+          font-weight: bold;
+          transition: 0.7s ease;
+          border-radius: 10% 10% 10% ;
+     
+          user-select: none;
+        }
+        
+        /* This ensures the next is places to the right */
+        .forward {
+          right: 0;
+          border-radius: 10 0 0 10px;
+        }
+
+        
+        /* This dictates the slideshow animation for the user */
+        .fade {
+          -webkit-animation-name: fade;
+          -webkit-animation-duration: 3.4s;
+          animation-name: fade;
+          animation-duration: 3.4s;
+        }
+        
+        @-webkit-keyframes fade {
+          from {opacity: .5}
+          to {opacity: .2}
+        }
+        
+        @keyframes fade {
+          from {opacity: .5}
+          to {opacity: .2}
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
